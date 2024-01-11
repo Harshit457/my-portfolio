@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      border: solid transparent;
+      height: 2500px;
+      width: 1500px;
+      display: flex;
+    }
+    .item {
+      border: solid black;
+      position: sticky;
+      top: 0;
+      height: 770px;
+      width: 350px;
+      background-color: rgb(15, 15, 61);
+    }
+    .item2 {
+      border: solid transparent;
+
+      background-color: rgb(222, 218, 218);
+      height: 770px;
+      width: 1200px;
+    }
+    .img {
+      border: solid cyan;
+      border-width: 5px;
+      height: 150px;
+      width: 150px;
+      margin-top: 100px;
+      margin-left: 100px;
+      image-rendering: auto;
+      border-radius: 50%;
+    }
+    .image {
+      height: 150px;
+      width: 150px;
+      border-radius: 60%;
+    }
+    .intro {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+    .intro2 {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+    }
+    .home {
+      display: flex;
+      padding: 140px;
+      font-size: 25px;
+      font-family: sans-serif;
+      text-align: justify;
+    }
+    .contain {
+      display: flex;
+
+      flex-direction: column;
+    }
+    .contents {
+      margin: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 30px;
+      border-radius: 20px;
+      text-align: center;
+    }
+    .item3 {
+      border: solid rgb(187, 249, 249);
+      height: 770px;
+      background-color: rgb(184, 250, 250);
+    }
+    .about {
+      font-size: 50px;
+      text-align: center;
+      color: rgb(246, 6, 6);
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .name {
+      font-size: 30px;
+      font-family: sans-serif;
+      margin: 40px;
+    }
+    .ans {
+      color: blue;
+      font-family: sans-serif;
+    }
+    .item4 {
+      border: solid transparent;
+      background-color: pink;
+      height: 770px;
+    }
+    .myedu {
+      font-size: 40px;
+      color: rgb(228, 40, 40);
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+    }
+    .container3 {
+      border: solid transparent;
+      background-color: pink;
+      display: flex;
+    }
+    .edu {
+      border: solid black;
+      border-radius: 30px;
+      background-color: rgb(249, 249, 116);
+      height: 400px;
+      width: 700px;
+    }
+    .year {
+      border: transparent;
+      background-color: black;
+      color: white;
+      margin: 20px;
+      font-size: 30px;
+      border-radius: 20px;
+    }
+    .grad {
+      font-size: 30px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .aboutgrad {
+      font-size: 20px;
+      color: rgb(100, 100, 253);
+      text-align: justify;
+      margin: 10px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="item">
+        <div class="img">
+          <img src="harshitimg.png" alt="" class="image" />
+        </div>
+        <h1 class="intro">Harshit Saini</h1>
+        <div class="intro2">Engineering student</div>
+        <div class="contain">
+          <button class="contents">Home</button>
+          <br />
+          <button class="contents">About</button>
+          <br />
+          <button class="contents">Education</button>
+          <br />
+          <button class="contents">Contact</button>
+        </div>
+      </div>
+      <div class="item2">
+        <div class="home">
+          <div class="forbg">
+            <h3>HI THERE!</h3>
+            <h1>I'M Harshit Saini</h1>
+            <p>
+              I'm a First Year Undergraduate Pursuing B-Tech From KIET GROUP OF
+              INSTITUTION In Computer Science And Engineering (Artificial
+              Intelligence And Machine Learning). I'm Skilled In Python. Now I'm
+              Currently learning Java.
+            </p>
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <!-- 3rd item div -->
+        <div class="item3">
+          <div class="about">About Me</div>
+          <br /><br /><br /><br />
+          <div class="name">
+            <span>Name : </span>
+            <span class="ans">Harshit Saini</span>
+          </div>
+          <div class="name">
+            <span>Age : </span>
+            <span class="ans">18</span>
+          </div>
+          <div class="name">
+            <span>Qualification : </span>
+            <span class="ans">B.TECH</span>
+          </div>
+          <div class="name">
+            <span>Skills : </span>
+            <span class="ans">Python,Java,My Sql,HTML,CSS</span>
+          </div>
+          <div class="name">
+            <span>Language : </span>
+            <span class="ans">English</span>
+          </div>
+          <div class="name">
+            <span>Hackerrank id : </span>
+            <a
+              href="https://www.hackerrank.com/profile/saini457harshit"
+              clas="ans"
+              >GO</a
+            >
+          </div>
+        </div>
+        <div class="item4">
+          <div class="myedu">My Education</div>
+          <br /><br /><br /><br />
+          <div class="container3">
+            <div class="edu">
+              <span class="year"> &nbsp;2024&nbsp; </span><br />
+              <div class="grad">B.TECH</div>
+              <p class="aboutgrad">
+                Currently I am pursuing B.TECH from KIET GROUP OF INSTITIONS In
+                Computer Science (AIML) Branch
+              </p>
+            </div>
+            <div class="edu">
+              <span class="year"> &nbsp;2021&nbsp; </span><br />
+              <div class="grad">HIGH SCHOOL-(90%)</div>
+              <p class="aboutgrad">
+                I Have Completed My High Schooling From L.N. Public School,
+                Hapur
+              </p>
+            </div>
+            <div class="edu">
+              <span class="year"> &nbsp;2023&nbsp; </span><br />
+              <div class="grad">INTERMEDIATE-(92.4%)</div>
+              <p class="aboutgrad">
+                I Have Completed My Intermediate From L.N. Public School, Hapur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
